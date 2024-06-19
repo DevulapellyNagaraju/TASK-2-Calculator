@@ -19,11 +19,9 @@ def divide(x, y):
 
 # Function to format and display the result
 def display_result(num1, num2, operation, result):
-    GREEN = "\033[32m"  # Green color code
-    YELLOW = '\033[93m'
-    ENDC = "\033[0m"  # Reset color code
-    print(YELLOW + f"\n  {num1}" + ENDC)
-    print(YELLOW + f"{operation} {num2}" + ENDC)
+
+    print(f"\n  {num1}" )
+    print( f"{operation} {num2}" )
     print(f"{operation*16}")
-    print(GREEN + f" Answer: {result}\n" + ENDC)
+    print(f" Answer: {result}\n" )
     print(f"{operation*16}")
